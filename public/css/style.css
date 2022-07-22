@@ -1,0 +1,207 @@
+@media only screen and (max-width: 500px) {
+    .menu{
+        position: absolute;
+        top: 5vh;
+        right: -1vw;
+        z-index: 11;
+        background: aliceblue;
+    }
+
+    .txtslider{
+        position: absolute;
+        top: 0vh;
+        left: 5vw;
+    }
+}
+@media only screen and (min-width: 500.2px) and (max-width: 770.2px){
+    .menu{
+        position: absolute;
+        top: 5vh;
+        right: -1vw;
+        z-index: 11;
+        background: aliceblue;
+    }
+    .txtslider{
+        position: absolute;
+        top: 0vh;
+        left: 5vw;
+    }
+}
+@media only screen and (min-width: 1251px) {
+    .menu li{
+        display: inline-block;
+    }
+    .txtslider{
+        position: absolute;
+        top: 55vh;
+        left: 5vw;
+    }
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+::selection{
+    background: #ff4400;
+    color: white;
+}
+.header{
+    position: sticky;
+    top: 0px;
+}
+.txtorang{
+    color: #ff4400;
+}
+.menu{
+    list-style: none;
+}
+.menu li{
+    padding-right: 2vw;
+    box-sizing: border-box;
+}
+.menu a{
+    color: #717275;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.menu a:hover,.active{
+    color: #ff4400;
+    border-bottom: 1px solid #ff4400;
+    padding-bottom: 3px;
+    box-sizing: border-box;
+}
+.navbtn{
+    position: absolute;
+    top: 0vh;
+    right: 1vw;
+}
+.topheader i:hover{
+    cursor: pointer;
+    color: #ff4400;
+}
+
+.btnslider{
+    background: black;
+    border-radius: 25px;
+}
+.btnslider:hover{
+    background: #ff4400;
+}
+.intro{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.intro:hover{
+    color: #ff4400!important;
+}
+.activeintro{
+    color: #ff4400!important;
+}
+.border-bottn{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    margin: 3vh 0px;
+}
+.bg-gray{
+    background: #d1e2ff
+}
+.footer{
+    list-style: none;
+}
+.footer li{
+    padding: 1vh 0px;
+    box-sizing: border-box;
+}
+.footer a:hover{
+    color: white!important;
+}
+a i:hover{
+    color: #ff4400!important;
+}
+.bggray2{
+    background: #d0d1d1;
+}
+
+.hovertxt{
+    height: 25vh;
+    padding-top: 5vh;
+    box-sizing: border-box;
+    text-align: center;
+}
+.hovertxt:hover{
+    background: white;
+    transform: translate(0px,-15vh);
+    transition: transform 0.7s;
+    box-shadow: #d0d1d1 5px 5px 5px 5px;
+}
+
+.linkhover:hover{
+    color: #ff4400!important;
+    content: '**';
+}
+.linkhover:hover::after{
+    color: #ff4400!important;
+    content:'->';
+}
+.checked {
+    color: orange;
+}
+
+#myVideo {
+    /*position: relative;*/
+    /*right: 0;*/
+    /*top: 10vh;*/
+    min-width: 100%;
+    min-height: 100%;
+}
+.sliderpos{
+    position: absolute;
+    right: 10vh;
+    top: 35vh;
+    max-width: 50%;
+    max-height: 50%;
+}
+.textpos{
+    position: absolute;
+    left: 10vw;
+    top: 35vh;
+}
+.bgpicfix{
+    background: url("/images/alex-haney-CAhjZmVk5H4-unsplash.jpg") no-repeat center fixed;
+    height: 80vh;
+}
+
+.btnreserv{
+    color: white;
+    background: #ff4400;
+}
+.btnreserv:hover{
+    background: black;
+    color: #ff4400;
+}
+.btnfeatured{
+    color: white;
+    background: #f44749;
+}
+.textnews{
+    position: absolute;
+    bottom: 0px;
+    background: rgba(64,64,64,0.45);
+    padding-right: 8vw;
+    left: 2vw;
+}
+.bgreserv{
+    background: url("/images/sincerely-media-HoEYgBL_Gcs-unsplash.jpg") no-repeat center center;
+}
+.bgcontact{
+    background: url("/images/header/contact.jpg") no-repeat center center;
+}
+.bgstory{
+    background: url("/images/header/story.jpg") no-repeat center center;
+}
+.bgmenu{
+    background: url("/images/header/menu.jpg") no-repeat center center;
+    height: 70vh;
+}
+
